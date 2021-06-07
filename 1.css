@@ -1,0 +1,11 @@
+nav a:hover
+{
+    background-color: blueviolet!important;
+    border-radius: 20%; 
+    max-width:fit-content;
+}
+
+body{
+    background-color:red!important;
+}
+

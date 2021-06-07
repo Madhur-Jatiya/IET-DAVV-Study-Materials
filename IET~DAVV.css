@@ -1,0 +1,92 @@
+.center
+{
+    color:white;
+    text-align:center;
+    text-decoration: underline;
+    text-shadow:4px 1px black ;
+    font-size: 50px;
+}
+
+.center2
+{
+    font:bolder;
+    color:white;
+    text-align:center;
+    text-decoration: underline;
+    text-shadow:4px 1px black ;
+
+}
+
+.main
+{
+    /* color: white; */
+    text-decoration: none;
+}
+
+.hu
+{
+    color: white;
+}
+
+.ft li a {
+    text-decoration: none;
+    color: white;
+}
+
+.ft li a:hover {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.nj
+{
+    width: 18rem !important;
+}
+
+.aj
+{
+    width: 22rem !important;
+}
+
+.rj
+{
+    margin-right: 30px !important;
+}
+
+.dropdown-item
+{
+   color: white !important;
+}
+
+.dropdown-item:hover
+{
+   background-color: black !important;
+}
+
+.mj
+{
+    margin-right: 5px !important;
+}
+
+.full-page
+{
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(bg-2.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+/* body
+{
+    background-image:url(bg-2.jpg);
+} */
+
+@media only screen and (max-width: 1000px){
+    /* For mobile phones: */
+    .nj {
+        text-align: center !important;
+      width: 100% !important;
+    }
+  }
