@@ -28,12 +28,14 @@
     color: white;
 }
 
-.ft li a {
+.ft li a 
+{
     text-decoration: none;
     color: white;
 }
 
-.ft li a:hover {
+.ft li a:hover 
+{
     text-decoration: none;
     color: lightblue;
 }
@@ -83,10 +85,11 @@
     background-image:url(bg-2.jpg);
 } */
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1000px)
+{
     /* For mobile phones: */
     .nj {
         text-align: center !important;
       width: 100% !important;
     }
-  }
+}
