@@ -80,11 +80,6 @@
 	position: absolute;
 }
 
-/* body
-{
-    background-image:url(bg-2.jpg);
-} */
-
 @media only screen and (max-width: 1000px)
 {
     /* For mobile phones: */
