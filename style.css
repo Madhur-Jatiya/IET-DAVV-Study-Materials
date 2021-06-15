@@ -4,7 +4,6 @@
     text-align:center;
     text-decoration: underline;
     text-shadow:4px 1px black ;
-    font-size: 50px;
 }
 
 .center2
@@ -14,16 +13,11 @@
     text-align:center;
     text-decoration: underline;
     text-shadow:4px 1px black ;
-}
 
-.center3
-{
-	font-size: 200cm !important;
 }
 
 .main
 {
-    /* color: white; */
     text-decoration: none;
 }
 
@@ -44,20 +38,11 @@
     color: lightblue;
 }
 
-.nj
+.responsive 
 {
-    width: 18rem !important;
-}
-
-.aj
-{
-    width: 22rem !important;
-}
-
-.rj
-{
-    margin-right: 30px !important;
-}
+    width: 100%;
+    height: auto;
+} 
 
 .dropdown-item
 {
@@ -67,11 +52,6 @@
 .dropdown-item:hover
 {
    background-color: black !important;
-}
-
-.mj
-{
-    margin-right: 5px !important;
 }
 
 .full-page
@@ -84,6 +64,7 @@
 	position: absolute;
 }
 
+
 @media only screen and (max-width: 1000px)
 {
     /* For mobile phones: */
@@ -92,3 +73,40 @@
       width: 100% !important;
     }
 }
+
+.edit 
+{
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .edit 
+    {
+        font-size: 35px;
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 770px) 
+{
+    .edit 
+    {
+        font-size: 25px;
+    }
+}
+
+/* .dev-text
+{
+    font-size: 50px!important;
+}
+
+@media only screen and (max-width: 730px) 
+{
+    .dev-text 
+    {
+        font-size: 25px;
+        /* color: blue; */
+    }
+} */
