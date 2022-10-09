@@ -1,4 +1,4 @@
-<h1 style="color:red; text-align:center;">IET-DAVV-Study-Materials</h1>
+<h1 align="center", style="color: green">IET-DAVV-Study-Materials</h1>
 
 # Home Page
 ![Screenshot (39)](https://user-images.githubusercontent.com/70679523/194745731-d1f62454-53ad-4212-9021-232b2d802a51.png)
