@@ -1,4 +1,3 @@
-# IET-DAVV-Study-Materials
 <h1 align="center">IET-DAVV-Study-Materials</h1>
 
 # Home Page
