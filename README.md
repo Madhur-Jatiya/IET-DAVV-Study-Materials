@@ -11,3 +11,7 @@
 # Developers
 ![Screenshot (40)](https://user-images.githubusercontent.com/70679523/194745855-027ad633-4dac-4e14-b78e-80cf93431a75.png)
 
+# Study Materials
+![Screenshot (48)](https://user-images.githubusercontent.com/70679523/202923173-23e1e547-eb8d-4dbc-b4b1-3d5a154aad80.png)
+
+
