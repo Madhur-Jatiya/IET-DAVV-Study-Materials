@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="icon" href="images/davvlogo.png">
-  <title>Developers</title>
+  <link rel="icon" href="images/davvlogo.png">
+  <title>Add Study Material</title>
 </head>
 
 <body class="full-page">
@@ -72,51 +72,115 @@
   </nav>
 
 
-  <!-- developors heading-->
-  <div class="my-4">
+  <!-- contributors heading-->
+  <div>
     <br><br>
     <b>
-      <p  class="fs-1 center2 center3">Devolopers</p>
+      <p class="fs-1 center2">Add Study Material</p>
     </b>
+    <br>
   </div>
 
 
-  <!-- developors photos-->
-  <div class="container-fluid ">
-    <div class="row mx-auto">
+  <div class="card mr-3 ml-3 bg-transparent">
+    <div class="card-body">
+      <div class="container-fluid mt-1">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <form class="mt-2">
 
-        <div class="card text-light bg-dark mx-auto  my-5" style="width: 22rem;">
-            <img src="images/madhur.jpg" class="card-img-top  my-2" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Madhur Jatiya</h5>
-                <i><p class="card-text">IET~DAVV(2019-2023)</p></i> <br>
-                <b><p class="card-text">Front-End Web Developer</p></b> <br>
-                <a href="https://www.linkedin.com/in/madhur-jatiya" class="btn btn-primary">View Profile</a>
-            </div>
-        </div>
 
-        <div class="card text-light bg-dark mx-auto  my-5" style="width: 22rem;">
-            <img src="images/lokesh.jpeg" class="card-img-top  my-2" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Lokesh Nargesh</h5>
-                <i><p class="card-text">IET~DAVV(2019-2023)</p></i> <br>
-                <b><p class="card-text">Front-End Web Developer</p></b> <br>
-                <a href="https://www.linkedin.com/in/lokesh-nargesh-40484b193/" class="btn btn-primary">View Profile</a>
-            </div>
-        </div>
 
-        <div class="card text-light bg-dark mx-auto my-5 border-dark" style="width: 22rem;">
-          <img src="images/rani.jpg" class="card-img-top my-2" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Rani Ahire</h5>
-            <i><p class="card-text">IET~DAVV(2020-2023)</p></i> <br>
-            <b><p class="card-text">Full Stack Web Developer</p></b><br>
-            <a href="https://www.linkedin.com/in/rani-ahire/" class="btn btn-primary">View Profile</a>
+              <!-- select Semester -->
+
+              <div class="form-group row">
+                <label for="semester" class="col-sm-2 col-form-label text-light" style="font-size:25px; text-shadow: 3px 3px black; margin-top:-10px"> <b>Semester</b></label>
+                <div class="col-sm-10">
+                  <select class="form-control" name="semester" id="semester">
+                    <option>Select Semester </option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                  </select>
+                </div>
+              </div> <br>
+
+
+              <!-- select Branch -->
+
+
+              <div class="form-group row">
+                <label for="branch" class="col-sm-2 col-form-label text-light" style="font-size:23px; text-shadow: 3px 3px black; margin-top:-10px"><b>Branch</b></label>
+                <div class="col-sm-10">
+                  <select class="form-control" name="branch" id="branch">
+                    <option>Select Branch</option>
+                    <option>Computer Engineering</option>
+                    <option>Information Technology</option>
+                    <option>Civil Engineer</option>
+                    <option>Mechanical Engineering</option>
+                    <option>Electronics & Instrumentation Engineering</option>
+                    <option>Electronics & Telecom Engineering</option>
+                  </select>
+                </div>
+              </div> <br>
+
+              <!-- select Subject -->
+
+
+              <div class="form-group row">
+                <label for="subject" class="col-sm-2 col-form-label text-light" style="font-size:23px; text-shadow: 3px 3px black; margin-top:-10px"><b>Subject</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Enter Subject  ">
+                </div>
+              </div> <br>
+
+
+
+              <!-- Study Material Type -->
+
+              <div class="form-group row">
+                <label for="type" class="col-sm-2 col-form-label text-light" style="font-size:23px; text-shadow: 3px 3px black; margin-top:-10px"><b>Type</b></label>
+                <div class="col-sm-10">
+                  <select class="form-control" name="materialType" id="materialType">
+                    <option>papers</option>
+                    <option>notes</option>
+                    <option>books</option>
+                  </select>
+                </div>
+              </div> <br>
+
+              <!-- select Year -->
+
+              <div class="form-group row">
+                <label for="Year" class="col-sm-2 col-form-label text-light" style="font-size:23px; text-shadow: 3px 3px black; margin-top:-10px"><b>Year</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="Year" id="Year" placeholder="Enter Year Ex:- 2022">
+                </div>
+              </div> <br>
+
+              <!-- file -->
+
+              <div class="custom-file">
+                <input class="bg-light p-1" required type="file" name="studyFileUrl" />
+              </div>
+
+              <div class="container text-center">
+                <button class="btn btn-outline-primary bg-dark text-light" style="border-color: black; font-weight: bold;">Save</button>
+              </div>
           </div>
+          </form>
         </div>
-
+      </div>
     </div>
-</div>
+  </div>
+  </div>
+
+
 
 
 
@@ -133,7 +197,8 @@
             <h5 class="text-uppercase hu my-4">IET~DAVV study materials</h5>
           </a>
           <p>
-            We Provides You Genuine Study Materials(like:- Books,Question papers,Notes,etc...) of all Semesters of IET~DAVV
+            We Provides You Genuine Study Materials(like:- Books,Question papers,Notes,etc...) of all Semesters of
+            IET~DAVV
             which is uploaded by Students of Institute of Engineering Technology. </p>
         </div>
         <!--Grid column-->
