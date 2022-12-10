@@ -14,4 +14,6 @@
 # Study Materials
 ![Screenshot (48)](https://user-images.githubusercontent.com/70679523/202923173-23e1e547-eb8d-4dbc-b4b1-3d5a154aad80.png)
 
+# Uploads
+![Screenshot (50)](https://user-images.githubusercontent.com/70679523/206835437-025ead55-e088-4ca0-9583-c1a3c0f45af5.png)
 
